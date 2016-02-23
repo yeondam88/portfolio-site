@@ -1,0 +1,120 @@
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.6;
+    color: #646464;
+    font-family: 'Varela Round', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    font-size: .95em;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+h3,
+a {
+    color: #0293c9;
+}
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/* ================================= 
+  BANNER Styles
+==================================== */
+
+.photo {
+    width: 160px;
+    border-radius: 50%;
+    border: solid 3px rgba(255,255,255,.8);
+}
+
+.banner {
+    text-align: center;
+    color: #fff;
+	background: linear-gradient(45deg, rgba(94,206,127,.6), rgba(57,173,209,.6)), 
+							url('http://i.imgur.com/D4rA84W.jpg');
+
+	background-size: cover;
+	padding: 4em 0;
+	margin-bottom: 4em;
+	text-shadow: 0 1px rgba(0,0,0,.35);
+}
+
+.headline {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3em;
+}
+
+.tagline {
+    color: floralwhite;
+    font-size: 1.25em;
+}
+
+
+/* ================================= 
+  NAVIGATION Styles
+==================================== */
+
+.navigation li {
+    width: 90%;
+    background-color: rgba(0,0,0,0.5);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 5px;
+}
+
+.navigation li:hover,
+.navigation li a:hover {
+    color: black;
+    background-color: rgba(255,255,255,0.5);
+    transition: 0.5s ease;
+}
+
+/* ================================= 
+  PORTFOLIO Styles
+==================================== */
+
+.portfolio {
+    margin-bottom: 15px;
+}
+
+.portfolio > img {
+    opacity: 0.7;
+    transition: transform 0.3s ease, opacity 0.3s;
+}
+
+.portfolio > img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
